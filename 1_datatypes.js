@@ -8,17 +8,44 @@ if (diez==once){
     console.log("Son iguales");
 
 }else{
-    console.log("Son iguales");
+    console.log("Son diferentes");
 }
 //crear dos variables con el distinto contenido y comparar si ambas son iguales
 var doce=12;
 var trece=13;
-if()
+if(doce==trece){
+    console.log("Son iguales");
+
+}else{
+    console.log("Son diferentes");
+}
 //crear una variable de tipo string y otra de tipo int, ambas con el mismo valor numérico. Compararlas para ver si contienen el mismo valor
+var cadena="10";
+var entero=10;
+if (cadena==entero){
+    console.log("Son iguales");
+
+}else{
+    console.log("Son diferentes");
+}
 
 //utilizar las mismas variables del ejercicio anterior y realizar una comparación estricta
+if (cadena===entero){
+    console.log("Son iguales");
+
+}else{
+    console.log("Son diferentes");
+}
 
 //crear dos arrays con el mismo contenido y comparar si ambos arrays son iguales
+var array1=[1,2,3,4,5,6,7]
+var array2=[1,2,3,4,5,6,7]
+if(array1==array2){
+    console.log("Son iguales");
+
+}else{
+    console.log("Son diferentes");
+}
 
 // crear un objeto "usuario", con tres propiedades
 
