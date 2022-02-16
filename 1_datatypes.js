@@ -37,6 +37,7 @@ if (cadena===entero){
     console.log("Son diferentes");
 }
 
+<<<<<<< HEAD
 //crear dos arrays con el mismo contenido y comparar si ambos arrays son iguales
 var array1=[1,2,3,4,5,6,7]
 var array2=[1,2,3,4,5,6,7]
@@ -46,6 +47,9 @@ if(array1==array2){
 }else{
     console.log("Son diferentes");
 }
+=======
+//crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
+>>>>>>> dfc04f0db40db9b595f639b440586107ec6a1635
 
 // crear un objeto "usuario", con tres propiedades
 
