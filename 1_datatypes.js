@@ -2,9 +2,18 @@ console.log("1.datatypes: 👋 Bienvenidos, en este fichero se harán ejercicios
 
 /* Datos primitivos y no primitivos*/
 //crear dos variables con el mismo contenido y comparar si ambas son iguales
+var diez=10;
+var once=10;
+if (diez==once){
+    console.log("Son iguales");
 
+}else{
+    console.log("Son iguales");
+}
 //crear dos variables con el distinto contenido y comparar si ambas son iguales
-
+var doce=12;
+var trece=13;
+if()
 //crear una variable de tipo string y otra de tipo int, ambas con el mismo valor numérico. Compararlas para ver si contienen el mismo valor
 
 //utilizar las mismas variables del ejercicio anterior y realizar una comparación estricta
