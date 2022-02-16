@@ -56,6 +56,9 @@ if(array1==array2){
 }else{
     console.log("Son diferentes");
 }
+//ahora comparar el contenido de dichos arrays utilizando un bucle
+
+// crear un objeto "usuario", con tres propiedades
 
 // crear un objeto "usuario", con tres propiedades
 //var objeto=new objeto();
@@ -72,6 +75,9 @@ var a=1;
 var b=2;
 a=+b;
 console.log(a);
+
+//incrementar una variable con otra variable o número con el operador  +=, mostrar por pantalla la primera variable (la incrementada)
+
 //eleva un número a otro utilizando **
 var potenciaDedos=2**3;
 console.log(potenciaDedos)

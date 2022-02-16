@@ -118,17 +118,51 @@ En JavaScript existen dos grandes grupos de tipos de datos: los primitivos y los
 #### Primitivos
 
 1. Numbers - Integers, floats
+<<<<<<< ours
+1. Strings - Cualquier tipo de datos entre comillas simples, dobles o comillas invertidas
+1. Booleans - valores verdaderos o falsos (true o false)
+1. Null -valor vacío o sin valor
+1. Undefined - una variable declarada sin valor
+=======
 1. Strings - Any data under single quote, double quote or backtick quote
 1. Booleans - true or false value
 1. Null - empty value or no value
 1. Undefined - a declared variable without a value
+>>>>>>> theirs
 
 #### No primitivos
 
 1. Arrays
+<<<<<<< ours
+
+```js
+let listaCompra = ["🍞", "🥦", "🍎"];
+```
+
+1. Objects
+
+```js
+let perro = {
+    nombre: "Toby",
+    raza: "Husky",
+    edad: 2,
+    vacunado: true,
+};
+```
+
+1. Functions
+
+```js
+function saludar(nombre) {
+    console.log("Hola " + nombre);
+}
+```
+
+=======
 1. Objects
 1. Functions
 
+>>>>>>> theirs
 ## 1.2 Numbers
 
 Métodos propios de los datos de tipo number:
@@ -144,6 +178,30 @@ Métodos propios de los datos de tipo number:
 
 ### Métodos avanzados
 
+<<<<<<< ours
+Las variables de tipo Number pueden ser modificadas con una serie de funciones predefinidas por el objeto Math.
+
+```js
+const GRAVITY = 9.806;
+
+console.log(GRAVITY); // 👉 9.806
+
+console.log(Math.round(GRAVITY)); //👉 10 (redondeo correcto )
+
+console.log(Math.floor(GRAVITY)); //👉 9 (redondeo a la baja)
+
+console.log(Math.ceil(GRAVITY)); // 👉 10 (redondeo a la alta)
+
+console.log(Math.min(-5, 3, 20, 4, 5, 10)); // 👉-5, devuelve el valor mínimo
+
+console.log(Math.max(-5, 3, 20, 4, 5, 10)); // 👉20, devuelve el valor máximo
+
+const randNum = Math.random(); // crea un número aleatorio entre 0 y 0.999999
+console.log(randNum);
+```
+
+=======
+>>>>>>> theirs
 ## 1.3 Strings
 
 ### Métodos básicos
