@@ -57,7 +57,13 @@ if(array1==array2){
     console.log("Son diferentes");
 }
 //ahora comparar el contenido de dichos arrays utilizando un bucle
+var sonIguales=true; 
+for(let i=0; i<array1.length; i++){
+    if(array1[i] !=array2[i]){
+        sonIguales=false;
 
+     }
+}
 // crear un objeto "usuario", con tres propiedades
 
 // crear un objeto "usuario", con tres propiedades
@@ -114,7 +120,8 @@ var sustitucion=(basica.replace(Pascal, Javascrip));
 console.log(sustitucion);
 //crear una variable con frase/cadena de caracteres y comprobar la longitud
 var hayquecontar="Lalelelelelele"
-var contandor=
+var contandor=hayquecontar.length;
+console.log(contandor);
 //eliminar "script" de la palabra Javascript con el método substr
 
 //comprueba si la frase "Espero que esto me sirva para algo" contiene la palabra "algo"
